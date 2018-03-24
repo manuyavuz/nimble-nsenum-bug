@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4FD9B2F32066D7EB00F004DF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FD9B2F22066D7EB00F004DF /* AppDelegate.m */; };
+		4FD9B2F62066D7EB00F004DF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FD9B2F52066D7EB00F004DF /* ViewController.m */; };
+		4FD9B2F92066D7EB00F004DF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FD9B2F72066D7EB00F004DF /* Main.storyboard */; };
+		4FD9B2FB2066D7EB00F004DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4FD9B2FA2066D7EB00F004DF /* Assets.xcassets */; };
+		4FD9B2FE2066D7EB00F004DF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FD9B2FC2066D7EB00F004DF /* LaunchScreen.storyboard */; };
+		4FD9B3012066D7EB00F004DF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FD9B3002066D7EB00F004DF /* main.m */; };
+		4FD9B30B2066D7EB00F004DF /* NimbleNSEnumTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FD9B30A2066D7EB00F004DF /* NimbleNSEnumTests.m */; };
+		74C15498749E2C473AF6C525 /* Pods_NimbleNSEnumTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5937D5F0C36D325A9C246E96 /* Pods_NimbleNSEnumTests.framework */; };
+		7CD7FCAF9D4CA1829C966C03 /* Pods_NimbleNSEnum.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0F546413CFCF7A4C332521B /* Pods_NimbleNSEnum.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4FD9B3072066D7EB00F004DF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4FD9B2E62066D7EB00F004DF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4FD9B2ED2066D7EB00F004DF;
+			remoteInfo = NimbleNSEnum;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		40DB9B8145EAE94BBD979302 /* Pods-NimbleNSEnumTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NimbleNSEnumTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NimbleNSEnumTests/Pods-NimbleNSEnumTests.debug.xcconfig"; sourceTree = "<group>"; };
+		4FD9B2EE2066D7EB00F004DF /* NimbleNSEnum.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NimbleNSEnum.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FD9B2F12066D7EB00F004DF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4FD9B2F22066D7EB00F004DF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4FD9B2F42066D7EB00F004DF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4FD9B2F52066D7EB00F004DF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4FD9B2F82066D7EB00F004DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4FD9B2FA2066D7EB00F004DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4FD9B2FD2066D7EB00F004DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4FD9B2FF2066D7EB00F004DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4FD9B3002066D7EB00F004DF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4FD9B3062066D7EB00F004DF /* NimbleNSEnumTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NimbleNSEnumTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FD9B30A2066D7EB00F004DF /* NimbleNSEnumTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NimbleNSEnumTests.m; sourceTree = "<group>"; };
+		4FD9B30C2066D7EB00F004DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5937D5F0C36D325A9C246E96 /* Pods_NimbleNSEnumTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NimbleNSEnumTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A506A342FCF748C1BF9770A0 /* Pods-NimbleNSEnum.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NimbleNSEnum.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NimbleNSEnum/Pods-NimbleNSEnum.debug.xcconfig"; sourceTree = "<group>"; };
+		A7481659DF26FE6312A0289B /* Pods-NimbleNSEnumTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NimbleNSEnumTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-NimbleNSEnumTests/Pods-NimbleNSEnumTests.release.xcconfig"; sourceTree = "<group>"; };
+		B0F546413CFCF7A4C332521B /* Pods_NimbleNSEnum.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NimbleNSEnum.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E5D46465788DDB3F308F8F4B /* Pods-NimbleNSEnum.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NimbleNSEnum.release.xcconfig"; path = "Pods/Target Support Files/Pods-NimbleNSEnum/Pods-NimbleNSEnum.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4FD9B2EB2066D7EB00F004DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CD7FCAF9D4CA1829C966C03 /* Pods_NimbleNSEnum.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FD9B3032066D7EB00F004DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74C15498749E2C473AF6C525 /* Pods_NimbleNSEnumTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0034E3411DE7D40B1ABE9D2C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B0F546413CFCF7A4C332521B /* Pods_NimbleNSEnum.framework */,
+				5937D5F0C36D325A9C246E96 /* Pods_NimbleNSEnumTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0CBF3BBD5F66952FA28EB0BF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A506A342FCF748C1BF9770A0 /* Pods-NimbleNSEnum.debug.xcconfig */,
+				E5D46465788DDB3F308F8F4B /* Pods-NimbleNSEnum.release.xcconfig */,
+				40DB9B8145EAE94BBD979302 /* Pods-NimbleNSEnumTests.debug.xcconfig */,
+				A7481659DF26FE6312A0289B /* Pods-NimbleNSEnumTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		4FD9B2E52066D7EB00F004DF = {
+			isa = PBXGroup;
+			children = (
+				4FD9B2F02066D7EB00F004DF /* NimbleNSEnum */,
+				4FD9B3092066D7EB00F004DF /* NimbleNSEnumTests */,
+				4FD9B2EF2066D7EB00F004DF /* Products */,
+				0CBF3BBD5F66952FA28EB0BF /* Pods */,
+				0034E3411DE7D40B1ABE9D2C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4FD9B2EF2066D7EB00F004DF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4FD9B2EE2066D7EB00F004DF /* NimbleNSEnum.app */,
+				4FD9B3062066D7EB00F004DF /* NimbleNSEnumTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4FD9B2F02066D7EB00F004DF /* NimbleNSEnum */ = {
+			isa = PBXGroup;
+			children = (
+				4FD9B2F12066D7EB00F004DF /* AppDelegate.h */,
+				4FD9B2F22066D7EB00F004DF /* AppDelegate.m */,
+				4FD9B2F42066D7EB00F004DF /* ViewController.h */,
+				4FD9B2F52066D7EB00F004DF /* ViewController.m */,
+				4FD9B2F72066D7EB00F004DF /* Main.storyboard */,
+				4FD9B2FA2066D7EB00F004DF /* Assets.xcassets */,
+				4FD9B2FC2066D7EB00F004DF /* LaunchScreen.storyboard */,
+				4FD9B2FF2066D7EB00F004DF /* Info.plist */,
+				4FD9B3002066D7EB00F004DF /* main.m */,
+			);
+			path = NimbleNSEnum;
+			sourceTree = "<group>";
+		};
+		4FD9B3092066D7EB00F004DF /* NimbleNSEnumTests */ = {
+			isa = PBXGroup;
+			children = (
+				4FD9B30A2066D7EB00F004DF /* NimbleNSEnumTests.m */,
+				4FD9B30C2066D7EB00F004DF /* Info.plist */,
+			);
+			path = NimbleNSEnumTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4FD9B2ED2066D7EB00F004DF /* NimbleNSEnum */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4FD9B30F2066D7EB00F004DF /* Build configuration list for PBXNativeTarget "NimbleNSEnum" */;
+			buildPhases = (
+				97B35CE25792E4815250473E /* [CP] Check Pods Manifest.lock */,
+				4FD9B2EA2066D7EB00F004DF /* Sources */,
+				4FD9B2EB2066D7EB00F004DF /* Frameworks */,
+				4FD9B2EC2066D7EB00F004DF /* Resources */,
+				4E8A5372512ECC5508C10B45 /* [CP] Embed Pods Frameworks */,
+				3E10F4D07F0D7D40988E70A6 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NimbleNSEnum;
+			productName = NimbleNSEnum;
+			productReference = 4FD9B2EE2066D7EB00F004DF /* NimbleNSEnum.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4FD9B3052066D7EB00F004DF /* NimbleNSEnumTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4FD9B3122066D7EB00F004DF /* Build configuration list for PBXNativeTarget "NimbleNSEnumTests" */;
+			buildPhases = (
+				560BDF96DC4C3C567BDDBE1F /* [CP] Check Pods Manifest.lock */,
+				4FD9B3022066D7EB00F004DF /* Sources */,
+				4FD9B3032066D7EB00F004DF /* Frameworks */,
+				4FD9B3042066D7EB00F004DF /* Resources */,
+				473477F4A9F81AAC64E69A4E /* [CP] Embed Pods Frameworks */,
+				C415B107369E33DA8CAF9D8D /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4FD9B3082066D7EB00F004DF /* PBXTargetDependency */,
+			);
+			name = NimbleNSEnumTests;
+			productName = NimbleNSEnumTests;
+			productReference = 4FD9B3062066D7EB00F004DF /* NimbleNSEnumTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4FD9B2E62066D7EB00F004DF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = manuyavuz;
+				TargetAttributes = {
+					4FD9B2ED2066D7EB00F004DF = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					4FD9B3052066D7EB00F004DF = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4FD9B2ED2066D7EB00F004DF;
+					};
+				};
+			};
+			buildConfigurationList = 4FD9B2E92066D7EB00F004DF /* Build configuration list for PBXProject "NimbleNSEnum" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4FD9B2E52066D7EB00F004DF;
+			productRefGroup = 4FD9B2EF2066D7EB00F004DF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4FD9B2ED2066D7EB00F004DF /* NimbleNSEnum */,
+				4FD9B3052066D7EB00F004DF /* NimbleNSEnumTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4FD9B2EC2066D7EB00F004DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FD9B2FE2066D7EB00F004DF /* LaunchScreen.storyboard in Resources */,
+				4FD9B2FB2066D7EB00F004DF /* Assets.xcassets in Resources */,
+				4FD9B2F92066D7EB00F004DF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FD9B3042066D7EB00F004DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3E10F4D07F0D7D40988E70A6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NimbleNSEnum/Pods-NimbleNSEnum-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		473477F4A9F81AAC64E69A4E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-NimbleNSEnumTests/Pods-NimbleNSEnumTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Nimble/Nimble.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Nimble.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NimbleNSEnumTests/Pods-NimbleNSEnumTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4E8A5372512ECC5508C10B45 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NimbleNSEnum/Pods-NimbleNSEnum-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		560BDF96DC4C3C567BDDBE1F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NimbleNSEnumTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		97B35CE25792E4815250473E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NimbleNSEnum-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C415B107369E33DA8CAF9D8D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NimbleNSEnumTests/Pods-NimbleNSEnumTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4FD9B2EA2066D7EB00F004DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FD9B2F62066D7EB00F004DF /* ViewController.m in Sources */,
+				4FD9B3012066D7EB00F004DF /* main.m in Sources */,
+				4FD9B2F32066D7EB00F004DF /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FD9B3022066D7EB00F004DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FD9B30B2066D7EB00F004DF /* NimbleNSEnumTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4FD9B3082066D7EB00F004DF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4FD9B2ED2066D7EB00F004DF /* NimbleNSEnum */;
+			targetProxy = 4FD9B3072066D7EB00F004DF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4FD9B2F72066D7EB00F004DF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4FD9B2F82066D7EB00F004DF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4FD9B2FC2066D7EB00F004DF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4FD9B2FD2066D7EB00F004DF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4FD9B30D2066D7EB00F004DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4FD9B30E2066D7EB00F004DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4FD9B3102066D7EB00F004DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A506A342FCF748C1BF9770A0 /* Pods-NimbleNSEnum.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NimbleNSEnum/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.manuyavuz.nimble-nsenum.NimbleNSEnum";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4FD9B3112066D7EB00F004DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5D46465788DDB3F308F8F4B /* Pods-NimbleNSEnum.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NimbleNSEnum/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.manuyavuz.nimble-nsenum.NimbleNSEnum";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4FD9B3132066D7EB00F004DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 40DB9B8145EAE94BBD979302 /* Pods-NimbleNSEnumTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NimbleNSEnumTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.manuyavuz.nimble-nsenum.NimbleNSEnumTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NimbleNSEnum.app/NimbleNSEnum";
+			};
+			name = Debug;
+		};
+		4FD9B3142066D7EB00F004DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A7481659DF26FE6312A0289B /* Pods-NimbleNSEnumTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NimbleNSEnumTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.manuyavuz.nimble-nsenum.NimbleNSEnumTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NimbleNSEnum.app/NimbleNSEnum";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4FD9B2E92066D7EB00F004DF /* Build configuration list for PBXProject "NimbleNSEnum" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FD9B30D2066D7EB00F004DF /* Debug */,
+				4FD9B30E2066D7EB00F004DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4FD9B30F2066D7EB00F004DF /* Build configuration list for PBXNativeTarget "NimbleNSEnum" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FD9B3102066D7EB00F004DF /* Debug */,
+				4FD9B3112066D7EB00F004DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4FD9B3122066D7EB00F004DF /* Build configuration list for PBXNativeTarget "NimbleNSEnumTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FD9B3132066D7EB00F004DF /* Debug */,
+				4FD9B3142066D7EB00F004DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4FD9B2E62066D7EB00F004DF /* Project object */;
+}
